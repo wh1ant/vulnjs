@@ -1,2 +1,2 @@
 # vulnjs
-Research browser research
+Research browser
