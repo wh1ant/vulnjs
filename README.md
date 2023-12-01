@@ -1,4 +1,4 @@
-# V8 vulnerabilities
+# Vulnerabilities
 |Leak Hole      |
 |---|
 |CVE-2021-38003 |
