@@ -12,6 +12,7 @@
 # Chrome SBX vulnerabilities
 |Target|CVE/issue|Vulnerability|
 |---|---|---|
-|Mojo|[(2020) issue-1062091](SBX/issue-1062091.md)|Use after free|
 |Mojo|[CVE-2019-13768](SBX/CVE-2019-13768.md)|Use after free|
+|Mojo|[(2020)issue-1062091](SBX/issue-1062091.md)|Use after free|
 |Mojo|[CVE-2021-30633](SBX/CVE-2021-30633.md)|Use after free|
+|Mojo|[CVE-2022-3075](SBX/CVE-2022-3075.md)|Insufficient data validation in Mojo|
