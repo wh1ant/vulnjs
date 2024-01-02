@@ -1,4 +1,4 @@
-# Vulnerabilities
+# Chrome RCE vulnerabilities
 |Leak Hole      |
 |---|
 |CVE-2021-38003 |
