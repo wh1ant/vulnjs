@@ -14,7 +14,7 @@
 |O|v8|[CVE-2022-4174](v8/CVE-2022-4174.md)|Type confusion|Leak Hole||
 |O|v8|[CVE-2023-2033](v8/CVE-2023-2033.md)|Type confusion|Leak Hole||
 |O|v8|[CVE-2023-3079](v8/CVE-2023-3079.md)|Type confusion|Leak Hole||
-||v8|[CVE-2023-4762](v8/CVE-2023-4762.md)|Type confusion|Leak Hole||
+|O|v8|[CVE-2023-4762](v8/CVE-2023-4762.md)|Type confusion|Leak Hole||
 ||v8|[CVE-2023-4069](v8/CVE-2023-4069.md)|Type confusion|Maglev compiler|
 |O|Renderer|[CVE-2021-38003](Renderer/CVE-2021-38003.md)|Type confusion|Leak Hole||
 |O|Renderer|[(2022)issue-1352549](Renderer/issue-1352549.md)|Type confusion|Leak Hole||
