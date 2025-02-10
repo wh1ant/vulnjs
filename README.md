@@ -31,8 +31,8 @@
 ||wasm||[CVE-2024-6100](v8/CVE-2024-6100.md)|Type confusion|Variant CVE-2024-2887|
 ||wasm||[CVE-2024-5158](v8/CVE-2024-5158.md)|Type confusion||
 ||wasm|Turboshaft|[issue-352720899](v8/issue-352720899.md)|Type confusion|Regress|
-|▵|Maglev|MaglevGraphBuilder|[CVE-2024-4947](v8/CVE-2024-4947.md)|Type confusion|Only root cause analysis|
-|O|Maglev|MaglevGraphBuilder|[CVE-2023-4069](v8/CVE-2023-4069.md)|Type confusion||
+|▵|Maglev|GraphBuilder|[CVE-2024-4947](v8/CVE-2024-4947.md)|Type confusion|Only root cause analysis|
+|O|Maglev|GraphBuilder|[CVE-2023-4069](v8/CVE-2023-4069.md)|Type confusion||
 |O|||[CVE-2017-5030](v8/CVE-2017-5030.md)|Out of bound read||
 |O|||[18-issue-880207](v8/18-issue-880207.md)|Type confusion||
 |O|||[CVE-2019-5825](v8/CVE-2019-5825.md)|Type confusion||
