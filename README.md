@@ -10,7 +10,7 @@
 ||wasm||[CVE-2017-5122](v8/CVE-2017-5122.md)|Out of bound read||
 ||wasm|async,Side Effect|[CVE-2018-6122](v8/CVE-2018-6122.md)|Type confusion||
 ||wasm|GC|[CVE-2024-3156](v8/CVE-2024-3156.md)|Inappropriate implementation||
-||wasm||[CVE-2024-3832](v8/CVE-2024-3832.md)|Type confusion|It's need more time|
+||wasm||[CVE-2024-3832](v8/CVE-2024-3832.md)|Type confusion|Need more time|
 |O|wasm||[CVE-2023-4070](v8/CVE-2023-4070.md)|Type confusion||
 |O|TurboFan|Concurrent compilation|[CVE-2023-3420](v8/CVE-2023-3420.md)|Type confusion||
 |O|TurboFan||[CVE-2018-17463](v8/CVE-2018-17463.md)|Type confusion|Prack 70|
