@@ -72,7 +72,6 @@
 |O|||[CVE-2021-30551](v8/CVE-2021-30551.md)|Type confusion|Leak Hole|
 |O|||[2022-issue-1352549](Renderer/issue-1352549.md)|Type confusion|Leak Hole|
 ||||[CVE-2024-1669](Renderer/CVE-2024-1669.md)|Out of bound read|reward-7000|
-|O|||[CVE-2024-1283](Renderer/CVE-2024-1283.md)|Heap buf overflow|Jorge|
 ||Compositing||[CVE-2024-3157](Renderer/CVE-2024-3157.md)|Out of bound write||
 
 # Chrome_SBX
