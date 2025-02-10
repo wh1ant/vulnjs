@@ -19,7 +19,7 @@
 |O|wasm||[CVE-2024-2887](v8/CVE-2024-2887.md)|Type confusion||
 ||wasm||[CVE-2024-5830](v8/CVE-2024-5830.md)|Type confusion||
 |▵|wasm||[CVE-2024-4761](v8/CVE-2024-4761.md)|Out of bound write||
-|▵|wasm||[issue-339736513](v8/issue-339736513.md)| Type confusion and OOB read||
+|▵|wasm||[issue-339736513](v8/issue-339736513.md)| Type confusion, OOB read||
 ||wasm||[CVE-2024-6100](v8/CVE-2024-6100.md)|Type confusion|Variant CVE-2024-2887|
 ||wasm||[CVE-2024-5158](v8/CVE-2024-5158.md)|Type confusion||
 ||wasm|Turboshaft|[issue-352720899](v8/issue-352720899.md)|Type confusion|Regress|
