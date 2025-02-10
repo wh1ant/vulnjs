@@ -1,4 +1,5 @@
 - [Chrome_V8_RCE](#Chrome_V8_RCE)
+- [Chrome_V8_cage_escape(V8_SBX)](#Chrome_V8_cage_escape(V8_SBX))
 - [Chrome_Renderer_RCE](#Chrome_Renderer_RCE)
 - [Chrome_SBX](#Chrome_SBX)
 
@@ -6,15 +7,6 @@
 |Pwn|Target|Feature|CVE/issue|Vulnerability|Comment|
 |---|---|---|---|---|---|
 |N/A|N/A|N/A|[utils](v8/utils.md)|N/A||
-|O|N/A||[Cage_escape](v8/Cage_Escape.md)|2024.6.6|v8 SBX|
-||wasm||[issue-349529650](v8/issue-349529650.md)|function import signature check race|v8 SBX|
-||wasm||[issue-354408144](v8/issue-354408144.md)|function signature confusion|v8 SBX|
-|O|wasm||[CVE-2024-7024](v8/CVE-2024-7024.md)|function signature confusion|v8 SBX|
-|O|wasm||[CVE-2024-8904](v8/CVE-2024-8904.md)|Type confusion|v8 SBX|
-||wasm||[CVE-2024-6779](v8/CVE-2024-6779.md)|Out of Bounds|v8 SBX|
-|O|wasm||[CVE-2024-8194](v8/CVE-2024-8194.md)|Type confusion|v8 SBX incomplete CVE-2024-6100|
-|▵|wasm||[issue-348084786](v8/issue-348084786.md)|Type confusion|v8 SBX|
-||wasm||[issue-373703277](v8/issue-373703277.md)|Type confusion|v8 SBX|
 ||wasm||[CVE-2017-5122](v8/CVE-2017-5122.md)|Out of bound read||
 ||wasm|async,Side Effect|[CVE-2018-6122](v8/CVE-2018-6122.md)|Type confusion||
 ||wasm|GC|[CVE-2024-3156](v8/CVE-2024-3156.md)|Inappropriate implementation||
@@ -31,8 +23,8 @@
 ||wasm||[CVE-2024-6100](v8/CVE-2024-6100.md)|Type confusion|Variant CVE-2024-2887|
 ||wasm||[CVE-2024-5158](v8/CVE-2024-5158.md)|Type confusion||
 ||wasm|Turboshaft|[issue-352720899](v8/issue-352720899.md)|Type confusion|Regress|
-|▵|Maglev|GraphBuilder|[CVE-2024-4947](v8/CVE-2024-4947.md)|Type confusion|Only root cause analysis|
-|O|Maglev|GraphBuilder|[CVE-2023-4069](v8/CVE-2023-4069.md)|Type confusion||
+|▵|Maglev|MaglevGraphBuilder|[CVE-2024-4947](v8/CVE-2024-4947.md)|Type confusion|Only root cause analysis|
+|O|Maglev|MaglevGraphBuilder|[CVE-2023-4069](v8/CVE-2023-4069.md)|Type confusion||
 |O|||[CVE-2017-5030](v8/CVE-2017-5030.md)|Out of bound read||
 |O|||[18-issue-880207](v8/18-issue-880207.md)|Type confusion||
 |O|||[CVE-2019-5825](v8/CVE-2019-5825.md)|Type confusion||
@@ -54,6 +46,21 @@
 ||||[CVE-2024-0517](CVE-2024-0517.md)|Out of Bounds||
 ||||CVE-2024-0519|Out of bounds||ITW|
 |O|||[CVE-2024-5274](v8/CVE-2024-5274.md)|||
+
+
+# Chrome_V8_cage_escape(V8_SBX)
+|Pwn|Target|Feature|CVE/issue|Vulnerability|Comment|
+|---|---|---|---|---|---|
+|N/A|N/A|N/A|[utils](v8/utils.md)|N/A||
+|O|N/A||[Cage_escape](v8/Cage_Escape.md)|2024.6.6||
+||wasm||[issue-349529650](v8/issue-349529650.md)|function import signature check race||
+||wasm||[issue-354408144](v8/issue-354408144.md)|function signature confusion||
+|O|wasm||[CVE-2024-7024](v8/CVE-2024-7024.md)|function signature confusion||
+|O|wasm||[CVE-2024-8904](v8/CVE-2024-8904.md)|Type confusion||
+||wasm||[CVE-2024-6779](v8/CVE-2024-6779.md)|Out of Bounds||
+|O|wasm||[CVE-2024-8194](v8/CVE-2024-8194.md)|Type confusion|incomplete CVE-2024-6100|
+|▵|wasm||[issue-348084786](v8/issue-348084786.md)|Type confusion||
+||wasm||[issue-373703277](v8/issue-373703277.md)|Type confusion||
 
 
 
@@ -81,7 +88,7 @@
 |O|Mojo||[CVE-2022-3075](SBX/CVE-2022-3075.md)|Insufficient data validation|All||
 ||Mojo||[CVE-2022-4178](SBX/CVE-2022-4178.md)|Use after free|All||
 ||Mojo||[CVE-2023-6347](SBX/CVE-2023-6347.md)|Use after free||
-|*|Mojo||[CVE-2023-0941](Haboob/SBX/CVE-2023-0941.md)|Use after free||reward-41000|
+|X|Mojo||[CVE-2023-0941](Haboob/SBX/CVE-2023-0941.md)|Use after free||Failed reclaim|
 ||Mojo||[CVE-2023-5218](SBX/CVE-2023-5218.md)|Use after free||reward-28000|
 |O|ANGLE||[CVE-2023-1818](Haboob/SBX/CVE-2023-1818.md)|Use after free|All|Activate SwiftShader|
 ||ANGLE|SwiftShader|[CVE-2018-16069](SBX/CVE-2018-16069.md)|heap buf overflow||Project zero|
