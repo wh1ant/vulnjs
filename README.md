@@ -12,7 +12,7 @@
 |O|wasm||[CVE-2024-7024](v8/CVE-2024-7024.md)|function signature confusion|v8 SBX|
 |O|wasm||[CVE-2024-8904](v8/CVE-2024-8904.md)|Type confusion|v8 SBX|
 ||wasm||[CVE-2024-6779](v8/CVE-2024-6779.md)|Out of Bounds|v8 SBX|
-|O|wasm||[CVE-2024-8194](v8/CVE-2024-8194.md)|Type confusion|v8 SBX(incomplete CVE-2024-6100)|
+|O|wasm||[CVE-2024-8194](v8/CVE-2024-8194.md)|Type confusion|v8 SBX incomplete CVE-2024-6100|
 |▵|wasm||[issue-348084786](v8/issue-348084786.md)|Type confusion|v8 SBX|
 ||wasm||[issue-373703277](v8/issue-373703277.md)|Type confusion|v8 SBX|
 ||wasm||[CVE-2017-5122](v8/CVE-2017-5122.md)|Out of bound read||
