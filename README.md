@@ -112,8 +112,8 @@
 |Pwn|Target|Feature|CVE/issue|Vulnerability|Comment|
 |---|---|---|---|---|---|
 |N/A|N/A|N/A|[utils](Safari/jsc/utils.md)|N/A||
-|O|Array.slice|Side Effect|[CVE-2016-4622](Safari/jsc/CVE-2016-4622.md)|Out of bounds|Phrack70|
-|O|Array.reverse||[CVE-2018-4192](Safari/jsc/CVE-2018-4192.md)|Use after free|pwn2own-2018|
+|O|Array.slice|Side Effect|[CVE-2016-4622](Safari/jsc/CVE-2016-4622.md)|Out of bounds||
+|O|Array.reverse||[CVE-2018-4192](Safari/jsc/CVE-2018-4192.md)|Use after free|
 
 # Firefox
 ## Firefox_JS_RCE
