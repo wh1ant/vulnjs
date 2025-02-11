@@ -5,6 +5,7 @@
 	- [Chrome_SBX](#Chrome_SBX)
 - [Safari](#Safari)
 	- [Safari_JavaScriptCore_RCE](#Safari_JavaScriptCore_RCE)
+	- [Safari_SBX](#Safari_SBX)
 - [Firefox](#Firefox)
 	- [Firefox_JS_RCE](#Firefox_JS_RCE)
 
@@ -12,7 +13,7 @@
 ## Chrome_V8_RCE
 |Pwn|Target|Feature|CVE/issue|Vulnerability|Comment|
 |---|---|---|---|---|---|
-|N/A|N/A|N/A|[utils](v8/utils.md)|N/A||
+|N/A|N/A|N/A|[Utils](v8/Utils.md)|N/A||
 ||wasm||[CVE-2017-5122](v8/CVE-2017-5122.md)|Out of bound read||
 ||wasm|async,Side Effect|[CVE-2018-6122](v8/CVE-2018-6122.md)|Type confusion||
 ||wasm|GC|[CVE-2024-3156](v8/CVE-2024-3156.md)|Inappropriate implementation||
@@ -57,7 +58,7 @@
 ## Chrome_V8_cage_escape(V8_SBX)
 |Pwn|Target|Feature|CVE/issue|Vulnerability|Comment|
 |---|---|---|---|---|---|
-|N/A|N/A|N/A|[utils](v8/utils.md)|N/A||
+|N/A|N/A|N/A|[Utils](v8/Utils.md)|N/A||
 |O|N/A||[Cage_escape](v8/Cage_Escape.md)|2024.6.6||
 ||wasm||[issue-349529650](v8/issue-349529650.md)|function import signature check race||
 ||wasm||[issue-354408144](v8/issue-354408144.md)|function signature confusion||
@@ -74,7 +75,7 @@
 
 |Pwn|Target|Feature|CVE/issue|Vulnerability|Comment|
 |---|---|---|---|---|---|
-|N/A|N/A|N/A|[utils](Renderer/utils.md)|N/A||
+|N/A|N/A|N/A|[Utils](Renderer/Utils.md)|N/A||
 |O|||[CVE-2021-30551](v8/CVE-2021-30551.md)|Type confusion|Leak Hole|
 |O|||[2022-issue-1352549](Renderer/issue-1352549.md)|Type confusion|Leak Hole|
 ||||[CVE-2024-1669](Renderer/CVE-2024-1669.md)|Out of bound read|reward-7000|
@@ -126,4 +127,4 @@
 ## Firefox_JS_RCE
 |Pwn|Target|Feature|CVE/issue|Vulnerability|Comment|
 |---|---|---|---|---|---|
-|N/A|N/A|N/A|[utils](Firefox/js/utils.md)|N/A||
+|N/A|N/A|N/A|[Utils](Firefox/js/Utils.md)|N/A||
