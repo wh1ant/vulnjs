@@ -6,7 +6,7 @@
 - [Safari](#Safari)
 	- [Safari_JavaScriptCore_RCE](#Safari_JavaScriptCore_RCE)
 - [Firefox](#Firefox)
-	- [FirefoxJS_RCE](#Firefox_JS_RCE)
+	- [Firefox_JS_RCE](#Firefox_JS_RCE)
 
 # Chrome
 ## Chrome_V8_RCE
