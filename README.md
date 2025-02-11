@@ -1,9 +1,15 @@
-- [Chrome_V8_RCE](#Chrome_V8_RCE)
-- [Chrome_V8_cage_escape(V8_SBX)](#Chrome_V8_cage_escape(V8_SBX))
-- [Chrome_Renderer_RCE](#Chrome_Renderer_RCE)
-- [Chrome_SBX](#Chrome_SBX)
+- [Chrome](#Chrome)
+	- [Chrome_V8_RCE](#Chrome_V8_RCE)
+	- [Chrome_V8_cage_escape(V8_SBX)](#Chrome_V8_cage_escape(V8_SBX))
+	- [Chrome_Renderer_RCE](#Chrome_Renderer_RCE)
+	- [Chrome_SBX](#Chrome_SBX)
+- [Safari](#Safari)
+	- [JavaScriptCore_RCE](#JavaScriptCore_RCE)
+- [Firefox](#Firefox)
+	- [JS_RCE](#JS_RCE)
 
-# Chrome_V8_RCE
+# Chrome
+## Chrome_V8_RCE
 |Pwn|Target|Feature|CVE/issue|Vulnerability|Comment|
 |---|---|---|---|---|---|
 |N/A|N/A|N/A|[utils](v8/utils.md)|N/A||
@@ -48,7 +54,7 @@
 |O|||[CVE-2024-5274](v8/CVE-2024-5274.md)|||
 
 
-# Chrome_V8_cage_escape(V8_SBX)
+## Chrome_V8_cage_escape(V8_SBX)
 |Pwn|Target|Feature|CVE/issue|Vulnerability|Comment|
 |---|---|---|---|---|---|
 |N/A|N/A|N/A|[utils](v8/utils.md)|N/A||
@@ -64,7 +70,7 @@
 
 
 
-# Chrome_Renderer_RCE
+## Chrome_Renderer_RCE
 
 |Pwn|Target|Feature|CVE/issue|Vulnerability|Comment|
 |---|---|---|---|---|---|
@@ -75,7 +81,7 @@
 |O|||[CVE-2024-1283](Renderer/CVE-2024-1283.md)|Heap buf overflow||
 ||Compositing||[CVE-2024-3157](Renderer/CVE-2024-3157.md)|Out of bound write||
 
-# Chrome_SBX
+## Chrome_SBX
 |Pwn|Target|Feature|CVE/issue|Vulnerability|OS|Comment|
 |---|---|---|---|---|---|---|
 ||Mojo||[(2019)75.0.3770.89](SBX/75.0.3770.89.md)|Use after free|All|Refactoring|
@@ -99,3 +105,18 @@
 ||Skia||[CVE-2023-4354](Haboob/SBX/CVE-2023-4354.md)|Heap buf overflow||
 ||Skia||CVE-2023-6345|Integer overflow||ITW|
 ||||[CVE-2023-2934](SBX/CVE-2023-2934.md)|TOCTOU|||
+
+
+# Safari
+## JavaScriptCore_RCE
+|Pwn|Target|Feature|CVE/issue|Vulnerability|Comment|
+|---|---|---|---|---|---|
+|N/A|N/A|N/A|[utils](Safari/jsc/utils.md)|N/A||
+|O|Array.slice|Side Effect|[CVE-2016-4622](Safari/jsc/CVE-2016-4622.md)|Out of bounds|Phrack70|
+|O|Array.reverse||[CVE-2018-4192](Safari/jsc/CVE-2018-4192.md)|Use after free|pwn2own-2018|
+
+# Firefox
+## JS_RCE
+|Pwn|Target|Feature|CVE/issue|Vulnerability|Comment|
+|---|---|---|---|---|---|
+|N/A|N/A|N/A|[utils](Firefox/js/utils.md)|N/A||
