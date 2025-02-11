@@ -89,20 +89,20 @@
 |O|Mojo||[CVE-2019-13768](SBX/CVE-2019-13768.md)|Use after free|Windows|Mark Brand|
 |O|Mojo||[20-issue-1062091](SBX/20-issue-1062091.md)|Use after free|All||
 ||Mojo||[CVE-2020-16045](SBX/CVE-2020-16045.md)|Use after free|Android||
-||Mojo||[CVE-2021-30528](Haboob/SBX/CVE-2021-30528.md)|Use after free|Android|Tutorial|
+||Mojo||[CVE-2021-30528](SBX/SBX/CVE-2021-30528.md)|Use after free|Android|Tutorial|
 |O|Mojo||[CVE-2021-30633](SBX/CVE-2021-30633.md)|Use after free||
 |O|Mojo||[CVE-2022-3075](SBX/CVE-2022-3075.md)|Insufficient data validation|All||
 ||Mojo||[CVE-2022-4178](SBX/CVE-2022-4178.md)|Use after free|All||
 ||Mojo||[CVE-2023-6347](SBX/CVE-2023-6347.md)|Use after free||
-|X|Mojo||[CVE-2023-0941](Haboob/SBX/CVE-2023-0941.md)|Use after free||Failed reclaim|
+|X|Mojo||[CVE-2023-0941](SBX/SBX/CVE-2023-0941.md)|Use after free||Failed reclaim|
 ||Mojo||[CVE-2023-5218](SBX/CVE-2023-5218.md)|Use after free||reward-28000|
-|O|ANGLE||[CVE-2023-1818](Haboob/SBX/CVE-2023-1818.md)|Use after free|All|Activate SwiftShader|
+|O|ANGLE||[CVE-2023-1818](SBX/SBX/CVE-2023-1818.md)|Use after free|All|Activate SwiftShader|
 ||ANGLE|SwiftShader|[CVE-2018-16069](SBX/CVE-2018-16069.md)|Heap buf overflow||Project zero|
 ||ANGLE|SwiftShader|[CVE-2022-4135](SBX/CVE-2022-4135.md)|Heap buf overflow||
 ||ANGLE|SwiftShader|[CVE-2023-2929](SBX/CVE-2023-2929.md)|Out of bounds write||ITW|
 ||ANGLE|Vulkan|[CVE-2024-2883](SBX/CVE-2024-2883.md)|Use after free|||
-||Skia||[CVE-2023-2136](Haboob/SBX/CVE-2023-2136.md)|Integer overflow|Android|ITW|
-||Skia||[CVE-2023-4354](Haboob/SBX/CVE-2023-4354.md)|Heap buf overflow||
+||Skia||[CVE-2023-2136](SBX/SBX/CVE-2023-2136.md)|Integer overflow|Android|ITW|
+||Skia||[CVE-2023-4354](SBX/SBX/CVE-2023-4354.md)|Heap buf overflow||
 ||Skia||CVE-2023-6345|Integer overflow||ITW|
 ||||[CVE-2023-2934](SBX/CVE-2023-2934.md)|TOCTOU|||
 
@@ -111,9 +111,16 @@
 ## Safari_JavaScriptCore_RCE
 |Pwn|Target|Feature|CVE/issue|Vulnerability|Comment|
 |---|---|---|---|---|---|
-|N/A|N/A|N/A|[utils](Safari/jsc/utils.md)|N/A||
-|O|Array.slice|Side Effect|[CVE-2016-4622](Safari/jsc/CVE-2016-4622.md)|Out of bounds||
-|O|Array.reverse||[CVE-2018-4192](Safari/jsc/CVE-2018-4192.md)|Use after free|
+|N/A|N/A|N/A|[Utils](Safari/jsc/Utils.md)|N/A||
+|O|Array.slice|Side Effect|[CVE-2016-4622](Safari/jsc/CVE-2016-4622.md)|Out of bounds|Phrack70|
+|O|Array.reverse||[CVE-2018-4192](Safari/jsc/CVE-2018-4192.md)|Use after free|pwn2own-2018|
+
+## Safari_SBX
+|Pwn|Target|Feature|CVE/issue|Vulnerability|Comment|
+|---|---|---|---|---|---|
+|N/A|N/A|N/A|[Utils](Safari/SBX/Utils.md)|N/A||
+|O|WindowServer||[CVE-2018-4193](Safari/SBX/CVE-2018-4193.md)|Out of bounds|pwn2own-2018|
+
 
 # Firefox
 ## Firefox_JS_RCE
