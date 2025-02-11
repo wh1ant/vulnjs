@@ -19,7 +19,7 @@
 ||wasm||[CVE-2024-3832](v8/CVE-2024-3832.md)|Type confusion|Need more time|
 |O|wasm||[CVE-2023-4070](v8/CVE-2023-4070.md)|Type confusion||
 |O|TurboFan|Concurrent compilation|[CVE-2023-3420](v8/CVE-2023-3420.md)|Type confusion||
-|O|TurboFan||[CVE-2018-17463](v8/CVE-2018-17463.md)|Type confusion|Prack 70|
+|O|TurboFan||[CVE-2018-17463](v8/CVE-2018-17463.md)|Type confusion|Phrack70|
 |||enum cache|[CVE-2023-4427](v8/CVE-2023-4427.md)|Out of bound read||
 |||enum cache|[CVE-2024-3159](v8/CVE-2024-3159.md)|Out of bound read||
 |O|wasm||[CVE-2024-2887](v8/CVE-2024-2887.md)|Type confusion||
