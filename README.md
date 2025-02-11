@@ -97,7 +97,7 @@
 |O|Mojo||[CVE-2022-3075](SBX/CVE-2022-3075.md)|Insufficient data validation|All||
 ||Mojo||[CVE-2022-4178](SBX/CVE-2022-4178.md)|Use after free|All||
 ||Mojo||[CVE-2023-6347](SBX/CVE-2023-6347.md)|Use after free||
-|X|Mojo||[CVE-2023-0941](SBX/CVE-2023-0941.md)|Use after free||Failed reclaim|
+|X|Mojo||[CVE-2023-0941](SBX/CVE-2023-0941.md)|Use after free|||
 ||Mojo||[CVE-2023-5218](SBX/CVE-2023-5218.md)|Use after free||reward-28000|
 |O|ANGLE||[CVE-2023-1818](SBX/CVE-2023-1818.md)|Use after free|All|Activate SwiftShader|
 ||ANGLE|SwiftShader|[CVE-2018-16069](SBX/CVE-2018-16069.md)|Heap buf overflow||Project zero|
