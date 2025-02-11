@@ -28,8 +28,6 @@
 ||wasm|Turboshaft|[issue-352720899](v8/issue-352720899.md)|Type confusion|Regress|
 |O|TurboFan|Concurrent compilation|[CVE-2023-3420](v8/CVE-2023-3420.md)|Type confusion||
 |O|TurboFan||[CVE-2018-17463](v8/CVE-2018-17463.md)|Type confusion|Phrack70|
-|||enum cache|[CVE-2023-4427](v8/CVE-2023-4427.md)|Out of bound read||
-|||enum cache|[CVE-2024-3159](v8/CVE-2024-3159.md)|Out of bound read||
 |O|Maglev|MaglevGraphBuilder|[CVE-2024-4947](v8/CVE-2024-4947.md)|Type confusion||
 |O|Maglev|MaglevGraphBuilder|[CVE-2023-4069](v8/CVE-2023-4069.md)|Type confusion||
 |O|Maglev||[CVE-2023-4069](v8/CVE-2023-4069.md)|Type confusion|Man Yue Mo|
@@ -50,6 +48,8 @@
 |O|||[CVE-2023-4762](v8/CVE-2023-4762.md)|Type confusion|Leak Hole||
 ||||[CVE-2024-4947](v8/CVE-2024-4947.md)|Type confusion|||
 |O||enum cache|[CVE-2023-4427](v8/CVE-2023-4427.md)|Out of bound read||
+|||enum cache|[CVE-2023-4427](v8/CVE-2023-4427.md)|Out of bound read||
+|||enum cache|[CVE-2024-3159](v8/CVE-2024-3159.md)|Out of bound read||
 ||||[CVE-2024-0517](v8/CVE-2024-0517.md)|Out of Bounds||
 ||||[CVE-2024-0519](v8/CVE-2024-0519)|Out of bounds||ITW|
 |O|||[CVE-2024-5274](v8/CVE-2024-5274.md)|||
