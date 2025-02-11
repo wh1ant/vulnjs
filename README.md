@@ -4,9 +4,9 @@
 	- [Chrome_Renderer_RCE](#Chrome_Renderer_RCE)
 	- [Chrome_SBX](#Chrome_SBX)
 - [Safari](#Safari)
-	- [JavaScriptCore_RCE](#JavaScriptCore_RCE)
+	- [Safari_JavaScriptCore_RCE](#Safari_JavaScriptCore_RCE)
 - [Firefox](#Firefox)
-	- [JS_RCE](#JS_RCE)
+	- [FirefoxJS_RCE](#Firefox_JS_RCE)
 
 # Chrome
 ## Chrome_V8_RCE
@@ -108,7 +108,7 @@
 
 
 # Safari
-## JavaScriptCore_RCE
+## Safari_JavaScriptCore_RCE
 |Pwn|Target|Feature|CVE/issue|Vulnerability|Comment|
 |---|---|---|---|---|---|
 |N/A|N/A|N/A|[utils](Safari/jsc/utils.md)|N/A||
@@ -116,7 +116,7 @@
 |O|Array.reverse||[CVE-2018-4192](Safari/jsc/CVE-2018-4192.md)|Use after free|pwn2own-2018|
 
 # Firefox
-## JS_RCE
+## Firefox_JS_RCE
 |Pwn|Target|Feature|CVE/issue|Vulnerability|Comment|
 |---|---|---|---|---|---|
 |N/A|N/A|N/A|[utils](Firefox/js/utils.md)|N/A||
