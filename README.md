@@ -85,6 +85,7 @@
 ## Chrome_SBX
 |Pwn|Target|Feature|CVE/issue|Vulnerability|OS|Comment|
 |---|---|---|---|---|---|---|
+|N/A|N/A|N/A|[Utils](SBX/Utils.md)|N/A|N/A||
 ||Mojo||[(2019)75.0.3770.89](SBX/75.0.3770.89.md)|Use after free|All|Refactoring|
 ||appcache||[2018-Hack2Win](Haboob/SBX/2018-Hack2Win.md)|Use after free|Windows|Full-chain|
 |O|Mojo||[CVE-2019-13768](SBX/CVE-2019-13768.md)|Use after free|Windows|Mark Brand|
