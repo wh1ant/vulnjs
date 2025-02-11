@@ -19,10 +19,6 @@
 ||wasm|GC|[CVE-2024-3156](v8/CVE-2024-3156.md)|Inappropriate implementation||
 ||wasm||[CVE-2024-3832](v8/CVE-2024-3832.md)|Type confusion|Need more time|
 |O|wasm||[CVE-2023-4070](v8/CVE-2023-4070.md)|Type confusion||
-|O|TurboFan|Concurrent compilation|[CVE-2023-3420](v8/CVE-2023-3420.md)|Type confusion||
-|O|TurboFan||[CVE-2018-17463](v8/CVE-2018-17463.md)|Type confusion|Phrack70|
-|||enum cache|[CVE-2023-4427](v8/CVE-2023-4427.md)|Out of bound read||
-|||enum cache|[CVE-2024-3159](v8/CVE-2024-3159.md)|Out of bound read||
 |O|wasm||[CVE-2024-2887](v8/CVE-2024-2887.md)|Type confusion||
 ||wasm||[CVE-2024-5830](v8/CVE-2024-5830.md)|Type confusion||
 |▵|wasm||[CVE-2024-4761](v8/CVE-2024-4761.md)|Out of bound write||
@@ -30,8 +26,13 @@
 ||wasm||[CVE-2024-6100](v8/CVE-2024-6100.md)|Type confusion|Variant CVE-2024-2887|
 ||wasm||[CVE-2024-5158](v8/CVE-2024-5158.md)|Type confusion||
 ||wasm|Turboshaft|[issue-352720899](v8/issue-352720899.md)|Type confusion|Regress|
+|O|TurboFan|Concurrent compilation|[CVE-2023-3420](v8/CVE-2023-3420.md)|Type confusion||
+|O|TurboFan||[CVE-2018-17463](v8/CVE-2018-17463.md)|Type confusion|Phrack70|
+|||enum cache|[CVE-2023-4427](v8/CVE-2023-4427.md)|Out of bound read||
+|||enum cache|[CVE-2024-3159](v8/CVE-2024-3159.md)|Out of bound read||
 |O|Maglev|MaglevGraphBuilder|[CVE-2024-4947](v8/CVE-2024-4947.md)|Type confusion||
 |O|Maglev|MaglevGraphBuilder|[CVE-2023-4069](v8/CVE-2023-4069.md)|Type confusion||
+|O|Maglev||[CVE-2023-4069](v8/CVE-2023-4069.md)|Type confusion|Man Yue Mo|
 |O|||[CVE-2017-5030](v8/CVE-2017-5030.md)|Out of bound read||
 |O|||[18-issue-880207](v8/18-issue-880207.md)|Type confusion||
 |O|||[CVE-2019-5825](v8/CVE-2019-5825.md)|Type confusion||
@@ -45,13 +46,12 @@
 |O|||[CVE-2023-2033](v8/CVE-2023-2033.md)|Type confusion|Leak Hole|
 |O|||[CVE-2023-3079](v8/CVE-2023-3079.md)|Type confusion|Leak Hole|
 ||Tutorial||[CVE-2023-3420](v8/CVE-2023-3420.md)|Type confusion|Man Yue Mo|
-|O|Maglev||[CVE-2023-4069](v8/CVE-2023-4069.md)|Type confusion|Man Yue Mo|
 ||||[CVE-2024-4761](v8/CVE-2024-4761.md)|Out of bound write||
 |O|||[CVE-2023-4762](v8/CVE-2023-4762.md)|Type confusion|Leak Hole||
 ||||[CVE-2024-4947](v8/CVE-2024-4947.md)|Type confusion|||
-|O||enum cache|[CVE-2023-4427](Haboob/v8/CVE-2023-4427.md)|Out of bound read||
-||||[CVE-2024-0517](CVE-2024-0517.md)|Out of Bounds||
-||||CVE-2024-0519|Out of bounds||ITW|
+|O||enum cache|[CVE-2023-4427](v8/CVE-2023-4427.md)|Out of bound read||
+||||[CVE-2024-0517](v8/CVE-2024-0517.md)|Out of Bounds||
+||||[CVE-2024-0519](v8/CVE-2024-0519)|Out of bounds||ITW|
 |O|||[CVE-2024-5274](v8/CVE-2024-5274.md)|||
 
 
