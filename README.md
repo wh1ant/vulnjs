@@ -38,13 +38,13 @@
 |O|||[CVE-2020-6383](v8/CVE-2020-6383.md)|Type confusion||
 |O|||[CVE-2021-21225](v8/CVE-2021-21225.md)|Out of bound read||
 |O||Property access|[CVE-2021-30632](v8/CVE-2021-30632.md)|Type confusion||
-|O|Tutorial||[CVE-2021-38003](Renderer/CVE-2021-38003.md)|Type confusion|Leak Hole|
+|O|||[CVE-2021-38003](Renderer/CVE-2021-38003.md)|Type confusion|Leak Hole|
 |O|||[CVE-2022-1310](v8/CVE-2022-1310.md)|Use after free||
 |O|||[CVE-2022-1364](v8/CVE-2022-1364.md)|Type confusion|Leak Hole|
 |O|||[CVE-2022-4174](v8/CVE-2022-4174.md)|Type confusion|Leak Hole|
 |O|||[CVE-2023-2033](v8/CVE-2023-2033.md)|Type confusion|Leak Hole|
 |O|||[CVE-2023-3079](v8/CVE-2023-3079.md)|Type confusion|Leak Hole|
-||Tutorial||[CVE-2023-3420](v8/CVE-2023-3420.md)|Type confusion|Man Yue Mo|
+||||[CVE-2023-3420](v8/CVE-2023-3420.md)|Type confusion|Man Yue Mo|
 ||||[CVE-2024-4761](v8/CVE-2024-4761.md)|Out of bound write||
 |O|||[CVE-2023-4762](v8/CVE-2023-4762.md)|Type confusion|Leak Hole||
 ||||[CVE-2024-4947](v8/CVE-2024-4947.md)|Type confusion|||
@@ -99,6 +99,7 @@
 ||Mojo||[CVE-2023-6347](SBX/CVE-2023-6347.md)|Use after free||
 |X|Mojo||[CVE-2023-0941](SBX/CVE-2023-0941.md)|Use after free|||
 ||Mojo||[CVE-2023-5218](SBX/CVE-2023-5218.md)|Use after free||reward-28000|
+||Mojo||[CVE-2023-2934](SBX/CVE-2023-2934.md)|TOCTOU|||
 |O|ANGLE||[CVE-2023-1818](SBX/CVE-2023-1818.md)|Use after free|All|Activate SwiftShader|
 ||ANGLE|SwiftShader|[CVE-2018-16069](SBX/CVE-2018-16069.md)|Heap buf overflow||Project zero|
 ||ANGLE|SwiftShader|[CVE-2022-4135](SBX/CVE-2022-4135.md)|Heap buf overflow||
@@ -107,8 +108,6 @@
 ||Skia||[CVE-2023-2136](SBX/CVE-2023-2136.md)|Integer overflow|Android|ITW|
 ||Skia||[CVE-2023-4354](SBX/CVE-2023-4354.md)|Heap buf overflow||
 ||Skia||[CVE-2023-6345](SBX/CVE-2023-6345.md)|Integer overflow||ITW|
-||||[CVE-2023-2934](SBX/CVE-2023-2934.md)|TOCTOU|||
-
 
 # Safari
 ## Safari_JavaScriptCore_RCE
@@ -125,9 +124,6 @@
 |O|WindowServer||[CVE-2018-4193](Safari/SBX/CVE-2018-4193.md)|Out of bounds|Mac|pwn2own-2018|
 ||SharedFileList||[CVE-2024-54498](Safari/SBX/CVE-2024-54498.md)|A path handling issue|Mac|
 ||WebGPU||[CVE-2023-28205](Safari/SBX/CVE-2023-28205.md)|Use after free|iOS|Project zero|
-
-
-
 
 # Firefox
 ## Firefox_Gecko_RCE
