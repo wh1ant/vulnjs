@@ -99,11 +99,11 @@
 ||Mojo||[CVE-2023-6347](SBX/CVE-2023-6347.md)|Use after free||
 |X|Mojo||[CVE-2023-0941](SBX/CVE-2023-0941.md)|Use after free|||
 ||Mojo||[CVE-2023-5218](SBX/CVE-2023-5218.md)|Use after free||reward-28000|
-||Mojo||[CVE-2023-2934](SBX/CVE-2023-2934.md)|TOCTOU|||
+||Mojo||[CVE-2023-2934](SBX/CVE-2023-2934.md)|TOCTOU|All||
 |O|ANGLE||[CVE-2023-1818](SBX/CVE-2023-1818.md)|Use after free|All|Activate SwiftShader|
 ||ANGLE|SwiftShader|[CVE-2018-16069](SBX/CVE-2018-16069.md)|Heap buf overflow||Project zero|
 ||ANGLE|SwiftShader|[CVE-2022-4135](SBX/CVE-2022-4135.md)|Heap buf overflow||
-||ANGLE|SwiftShader|[CVE-2023-2929](SBX/CVE-2023-2929.md)|Out of bounds write||ITW|
+||ANGLE|SwiftShader|[CVE-2023-2929](SBX/CVE-2023-2929.md)|Out of bound write||ITW|
 ||ANGLE|Vulkan|[CVE-2024-2883](SBX/CVE-2024-2883.md)|Use after free|||
 ||Skia||[CVE-2023-2136](SBX/CVE-2023-2136.md)|Integer overflow|Android|ITW|
 ||Skia||[CVE-2023-4354](SBX/CVE-2023-4354.md)|Heap buf overflow||
