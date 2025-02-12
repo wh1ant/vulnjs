@@ -7,7 +7,8 @@
 	- [Safari_JavaScriptCore_RCE](#Safari_JavaScriptCore_RCE)
 	- [Safari_SBX](#Safari_SBX)
 - [Firefox](#Firefox)
-	- [Firefox_JS_RCE](#Firefox_JS_RCE)
+	- [Firefox_Gecko_RCE](#Firefox_Gecko_RCE)
+	- [Firefox_Renderer_RCE](#Firefox_Renderer_RCE)
 
 # Chrome
 ## Chrome_V8_RCE
@@ -71,6 +72,7 @@
 ||wasm||[issue-373703277](v8/issue-373703277.md)|Type confusion||
 
 
+
 ## Chrome_Renderer_RCE
 |Pwn|Target|Feature|CVE/issue|Vulnerability|Comment|
 |---|---|---|---|---|---|
@@ -117,15 +119,26 @@
 |O|Array.reverse||[CVE-2018-4192](Safari/jsc/CVE-2018-4192.md)|Use after free|pwn2own-2018|
 
 ## Safari_SBX
-|Pwn|Target|Feature|CVE/issue|Vulnerability|Comment|
-|---|---|---|---|---|---|
-|N/A|N/A|N/A|[Utils](Safari/SBX/Utils.md)|N/A||
-|O|WindowServer||[CVE-2018-4193](Safari/SBX/CVE-2018-4193.md)|Out of bounds|pwn2own-2018|
+|Pwn|Target|Feature|CVE/issue|Vulnerability|OS|Comment|
+|---|---|---|---|---|---|---|
+|N/A|N/A|N/A|[Utils](Safari/SBX/Utils.md)|N/A|||
+|O|WindowServer||[CVE-2018-4193](Safari/SBX/CVE-2018-4193.md)|Out of bounds|Mac|pwn2own-2018|
+||SharedFileList||[CVE-2024-54498](Safari/SBX/CVE-2024-54498.md)|A path handling issue|Mac|
+||WebGPU||[CVE-2023-28205](Safari/SBX/CVE-2023-28205.md)|Use after free|iOS|Project zero|
+
+
 
 
 # Firefox
-## Firefox_JS_RCE
+## Firefox_Gecko_RCE
 |Pwn|Target|Feature|CVE/issue|Vulnerability|Comment|
 |---|---|---|---|---|---|
-|N/A|N/A|N/A|[Utils](Firefox/js/Utils.md)|N/A||
-|O|SpiderMonkey|Side effect|[CVE-2024-8381](Firefox/js/CVE-2024-8381.md)|Type confusion||
+|N/A|N/A|N/A|[Utils](Firefox/Gecko/Utils.md)|N/A||
+|O|SpiderMonkey|Side effect|[CVE-2024-8381](Firefox/Gecko/CVE-2024-8381.md)|Type confusion||
+
+
+## Firefox_Renderer_RCE
+|Pwn|Target|Feature|CVE/issue|Vulnerability|Comment|
+|---|---|---|---|---|---|
+|N/A|N/A|N/A|[Utils](Firefox/Renderer/Utils.md)|N/A||
+||||[CVE-2022-1802](Firefox/Renderer/CVE-2022-1802.md)|Out of bounds|pwn2own-2022|
