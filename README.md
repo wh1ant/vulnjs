@@ -49,7 +49,6 @@
 |O|||[CVE-2023-4762](v8/CVE-2023-4762.md)|Type confusion|Leak Hole||
 ||||[CVE-2024-4947](v8/CVE-2024-4947.md)|Type confusion|||
 |O||enum cache|[CVE-2023-4427](v8/CVE-2023-4427.md)|Out of bound read||
-|||enum cache|[CVE-2023-4427](v8/CVE-2023-4427.md)|Out of bound read||
 |||enum cache|[CVE-2024-3159](v8/CVE-2024-3159.md)|Out of bound read||
 ||||[CVE-2024-0517](v8/CVE-2024-0517.md)|Out of Bounds||
 ||||[CVE-2024-0519](v8/CVE-2024-0519)|Out of bounds||ITW|
