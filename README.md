@@ -21,23 +21,23 @@
 ||wasm||[CVE-2024-3832](v8/CVE-2024-3832.md)|Type confusion|Need more time|
 |O|wasm||[CVE-2023-4070](v8/CVE-2023-4070.md)|Type confusion||
 |O|wasm||[CVE-2024-2887](v8/CVE-2024-2887.md)|Type confusion||
-||wasm||[CVE-2024-5830](v8/CVE-2024-5830.md)|Type confusion||
 |▵|wasm||[CVE-2024-4761](v8/CVE-2024-4761.md)|Out of bound write||
 |▵|wasm||[issue-339736513](v8/issue-339736513.md)| Type confusion, OOB read||
 ||wasm||[CVE-2024-6100](v8/CVE-2024-6100.md)|Type confusion|Variant CVE-2024-2887|
 ||wasm||[CVE-2024-5158](v8/CVE-2024-5158.md)|Type confusion||
 ||wasm|Turboshaft|[issue-352720899](v8/issue-352720899.md)|Type confusion|Regress|
 |O|TurboFan|Concurrent compilation|[CVE-2023-3420](v8/CVE-2023-3420.md)|Type confusion||
-|O|TurboFan||[CVE-2018-17463](v8/CVE-2018-17463.md)|Type confusion|Phrack70|
+|O|TurboFan|Side effect|[CVE-2018-17463](v8/CVE-2018-17463.md)|Type confusion||
+|O|TurboFan|Property access|[CVE-2021-30632](v8/CVE-2021-30632.md)|Type confusion||
 |O|Maglev|MaglevGraphBuilder|[CVE-2024-4947](v8/CVE-2024-4947.md)|Type confusion||
-|O|Maglev|MaglevGraphBuilder|[CVE-2023-4069](v8/CVE-2023-4069.md)|Type confusion||
-|O|Maglev||[CVE-2023-4069](v8/CVE-2023-4069.md)|Type confusion|Man Yue Mo|
+|O|Maglev|MaglevGraphBuilder|[CVE-2023-4069](v8/CVE-2023-4069.md)|Type confusion|Man Yue Mo|
+||Map transition|Value serializer|[CVE-2023-1214](v8/CVE-2023-1214.md)|Type confusion|Man Yue Mo|
+||Map transition|TryFastAddDataProperty|[CVE-2024-5830](v8/CVE-2024-5830.md)|Type confusion|Man Yue Mo|
 |O|||[CVE-2017-5030](v8/CVE-2017-5030.md)|Out of bound read||
 |O|||[18-issue-880207](v8/18-issue-880207.md)|Type confusion||
 |O|||[CVE-2019-5825](v8/CVE-2019-5825.md)|Type confusion||
 |O|||[CVE-2020-6383](v8/CVE-2020-6383.md)|Type confusion||
 |O|||[CVE-2021-21225](v8/CVE-2021-21225.md)|Out of bound read||
-|O||Property access|[CVE-2021-30632](v8/CVE-2021-30632.md)|Type confusion||
 |O|||[CVE-2021-38003](Renderer/CVE-2021-38003.md)|Type confusion|Leak Hole|
 |O|||[CVE-2022-1310](v8/CVE-2022-1310.md)|Use after free||
 |O|||[CVE-2022-1364](v8/CVE-2022-1364.md)|Type confusion|Leak Hole|
