@@ -53,7 +53,7 @@
 |||enum cache|[CVE-2024-3159](v8/CVE-2024-3159.md)|Out of bound read||
 ||||[CVE-2024-0517](v8/CVE-2024-0517.md)|Out of Bounds||
 ||||[CVE-2024-0519](v8/CVE-2024-0519)|Out of bounds||ITW|
-|O|||[CVE-2024-5274](v8/CVE-2024-5274.md)|||
+|O|Parser|Incorrect parsing|[CVE-2024-5274](v8/CVE-2024-5274.md)|Type confusion||
 
 
 ## Chrome_V8_cage_escape(V8_SBX)
