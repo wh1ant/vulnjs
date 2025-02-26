@@ -91,7 +91,7 @@
 |O|Mojo||[CVE-2019-13768](SBX/CVE-2019-13768.md)|Use after free|Windows|Mark Brand|
 |O|Mojo||[20-issue-1062091](SBX/20-issue-1062091.md)|Use after free|All||
 ||Mojo||[CVE-2020-16045](SBX/CVE-2020-16045.md)|Use after free|Android||
-||Mojo||[CVE-2021-30528](SBX/CVE-2021-30528.md)|Use after free|Android|Tutorial|
+||Mojo||[CVE-2021-30528](SBX/CVE-2021-30528.md)|Use after free|Android|Writeup|
 |O|Mojo||[CVE-2021-30633](SBX/CVE-2021-30633.md)|Use after free||
 |O|Mojo||[CVE-2022-3075](SBX/CVE-2022-3075.md)|Insufficient data validation|All||
 ||Mojo||[CVE-2022-4178](SBX/CVE-2022-4178.md)|Use after free|All||
