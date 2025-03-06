@@ -83,6 +83,9 @@
 ||Compositing||[CVE-2024-3157](Renderer/CVE-2024-3157.md)|Out of bound write||
 
 ## Chrome_SBX
+|Pwn|Target|Feature|CVE/issue|Vulnerability|OS|Comment|
+|---|---|---|---|---|---|---|
+|N/A|N/A|N/A|[Utils](SBX/Utils.md)|N/A|N/A||
 ||Mojo||[(19)75.0.3770.89](SBX/75.0.3770.89.md)|Use after free|All|Refactoring|
 |O|Mojo||[CVE-2019-13768](SBX/CVE-2019-13768.md)|Use after free|Windows|Mark Brand|
 |O|Mojo||[20-issue-1062091](SBX/20-issue-1062091.md)|Use after free|All||
