@@ -110,8 +110,8 @@
 |O|ANGLE|SwiftShader|[CVE-2023-1818](SBX/CVE-2023-1818.md)|Use after free|All||
 ||ANGLE|SwiftShader|[CVE-2018-16069](SBX/CVE-2018-16069.md)|Heap buf overflow|||
 ||ANGLE|SwiftShader|[CVE-2022-4135](SBX/CVE-2022-4135.md)|Heap buf overflow||
-||ANGLE|SwiftShader|[CVE-2023-2929](SBX/CVE-2023-2929.md)|Out of bound write||ITW|
-|O|ANGLE|SwiftShader|[CVE-2023-4072](CVE-2023-4072.md)|Out of bounds|All|Exist SBX code|
+||ANGLE|SwiftShader|[CVE-2023-2929](SBX/CVE-2023-2929.md)|Out of bound write|||
+|O|ANGLE|SwiftShader|[CVE-2023-4072](CVE-2023-4072.md)|Out of bounds|All||
 ||ANGLE|SwiftShader|[23-issue-40063963](SBX/23-issue-40063963.md)|Integer overflow|All||
 |X|ANGLE|Translator|[CVE-2024-3516](SBX/CVE-2024-3516.md)|Heap buffer overflow|||
 ||ANGLE|Vulkan|[CVE-2024-2883](SBX/CVE-2024-2883.md)|Use after free|||
