@@ -130,7 +130,7 @@
 ||COM||[CVE-2023-36719](SBX/CVE-2023-36719.md)|Use after free|Windows||
 ||Kernel|NTOS|[CVE-2023–21674](SBX/CVE-2023–21674.md)|Use after free|Windows||
 ||Driver|Binder|[CVE-2020-0041](SBX/CVE-2020-0041.md)|Use after free|Android||
-|||Model|[CVE-2021-21201](SBX/CVE-2021-21201.md)|Use after free|All|High|
+|||Model|[CVE-2021-21201](SBX/CVE-2021-21201.md)|Use after free|All||
 ||||[23-issue-40063125](SBX/23-issue-40063125.md)|Use after free|All||
 |||Site Isolation|[CVE-2020-16017](SBX/CVE-2020-16017.md)|Use after free||
 |||Site Isolation|[CVE-2022-0290](SBX/CVE-2022-0290.md)|Use after free||
