@@ -83,30 +83,56 @@
 ||Compositing||[CVE-2024-3157](Renderer/CVE-2024-3157.md)|Out of bound write||
 
 ## Chrome_SBX
-|Pwn|Target|Feature|CVE/issue|Vulnerability|OS|Comment|
-|---|---|---|---|---|---|---|
-|N/A|N/A|N/A|[Utils](SBX/Utils.md)|N/A|N/A||
-||appcache||[2018-Hack2Win](SBX/2018-Hack2Win.md)|Use after free|Windows|Full-chain|
-||Mojo||[(2019)75.0.3770.89](SBX/75.0.3770.89.md)|Use after free|All|Refactoring|
+||Mojo||[(19)75.0.3770.89](SBX/75.0.3770.89.md)|Use after free|All|Refactoring|
 |O|Mojo||[CVE-2019-13768](SBX/CVE-2019-13768.md)|Use after free|Windows|Mark Brand|
 |O|Mojo||[20-issue-1062091](SBX/20-issue-1062091.md)|Use after free|All||
 ||Mojo||[CVE-2020-16045](SBX/CVE-2020-16045.md)|Use after free|Android||
-||Mojo||[CVE-2021-30528](SBX/CVE-2021-30528.md)|Use after free|Android|Writeup|
 |O|Mojo||[CVE-2021-30633](SBX/CVE-2021-30633.md)|Use after free||
 |O|Mojo||[CVE-2022-3075](SBX/CVE-2022-3075.md)|Insufficient data validation|All||
 ||Mojo||[CVE-2022-4178](SBX/CVE-2022-4178.md)|Use after free|All||
 ||Mojo||[CVE-2023-6347](SBX/CVE-2023-6347.md)|Use after free||
 |X|Mojo||[CVE-2023-0941](SBX/CVE-2023-0941.md)|Use after free|||
-||Mojo||[CVE-2023-5218](SBX/CVE-2023-5218.md)|Use after free||reward-28000|
+||Mojo||[CVE-2023-5218](SBX/CVE-2023-5218.md)|Use after free|||
 ||Mojo||[CVE-2023-2934](SBX/CVE-2023-2934.md)|TOCTOU|All||
-|O|ANGLE||[CVE-2023-1818](SBX/CVE-2023-1818.md)|Use after free|All||
-||ANGLE|SwiftShader|[CVE-2018-16069](SBX/CVE-2018-16069.md)|Heap buf overflow||Project zero|
+|▵|Mojo|C++|[CVE-2021-21146](SBX/CVE-2021-21146.md)|Use after free|All||
+|X|Mojo|C++|[CVE-2021-30528](SBX/CVE-2021-30528.md)|Use after free|Android||
+||Mojo|RFH|[20-issue-1068395](SBX/20-issue-1068395.md)|Use after free|Android||
+||Mojo|IPCZ|[22-issue-40062130](SBX/22-issue-40062130.md)|Use after free|All||
+||Mojo||[22-issue-40061915](SBX/22-issue-40061915.md)|Use after free|All||
+||Mojo|MojoPipe|[CVE-2023-6347](SBX/CVE-2023-6347.md)|Use after free|All||
+|X|Mojo|Prompts|[CVE-2023-0941](SBX/CVE-2023-0941.md)|Use after free|All||
+|X|Mojo|Site Isolation|[CVE-2023-5218](SBX/CVE-2023-5218.md)|Use after free|All||
+||Mojo|Visuals|[CVE-2024-3157](SBX/CVE-2024-3157.md)|Out of bounds|All||
+|▵|Mojo|Visuals|[CVE-2024-4671](SBX/CVE-2024-4671.md)|Use after free|All||
+|O|ANGLE|SwiftShader|[CVE-2023-1818](SBX/CVE-2023-1818.md)|Use after free|All||
+||ANGLE|SwiftShader|[CVE-2018-16069](SBX/CVE-2018-16069.md)|Heap buf overflow|||
 ||ANGLE|SwiftShader|[CVE-2022-4135](SBX/CVE-2022-4135.md)|Heap buf overflow||
 ||ANGLE|SwiftShader|[CVE-2023-2929](SBX/CVE-2023-2929.md)|Out of bound write||ITW|
+|O|ANGLE|SwiftShader|[CVE-2023-4072](CVE-2023-4072.md)|Out of bounds|All|Exist SBX code|
+||ANGLE|SwiftShader|[23-issue-40063963](SBX/23-issue-40063963.md)|Integer overflow|All||
+|X|ANGLE|Translator|[CVE-2024-3516](SBX/CVE-2024-3516.md)|Heap buffer overflow|||
 ||ANGLE|Vulkan|[CVE-2024-2883](SBX/CVE-2024-2883.md)|Use after free|||
+||ANGLE||[CVE-2023-1534](SBX/CVE-2023-1534.md)|Out of bound read|All||
+|X|ANGLE|SwiftShader|[CVE-2024-4058](SBX/CVE-2024-4058.md)|Type confusion|All||
+||ANGLE||[CVE-2016-1649](SBX/CVE-2016-1649.md)|Heap buf overflow|||
 ||Skia||[CVE-2023-2136](SBX/CVE-2023-2136.md)|Integer overflow|Android|ITW|
 ||Skia||[CVE-2023-4354](SBX/CVE-2023-4354.md)|Heap buf overflow||
 ||Skia||[CVE-2023-6345](SBX/CVE-2023-6345.md)|Integer overflow||ITW|
+||Skia|Tag|[CVE-2018-6126](SBX/CVE-2018-6126.md)|Heap buf overflow|All||
+||Skia||[CVE-2021-37981](SBX/CVE-2021-37981.md)|Heap buf overflow||
+||Skia||[CVE-2023-4354](SBX/CVE-2023-4354.md)|Heap buf overflow|All||
+||Skia||[CVE-2023-6345](SBX/CVE-2023-6345.md)|Integer overflow||ITW|
+||appcache||[2018-Hack2Win](SBX/2018-Hack2Win.md)|Use after free|Windows||
+||WebRTC||[CVE-2023-7024](SBX/CVE-2023-7024.md)|Heap buf overflow||ITW|
+||COM||[CVE-2023-36719](SBX/CVE-2023-36719.md)|Use after free|Windows||
+||Kernel|NTOS|[CVE-2023–21674](SBX/CVE-2023–21674.md)|Use after free|Windows||
+||Driver|Binder|[CVE-2020-0041](SBX/CVE-2020-0041.md)|Use after free|Android||
+|||Model|[CVE-2021-21201](SBX/CVE-2021-21201.md)|Use after free|All|High|
+||||[23-issue-40063125](SBX/23-issue-40063125.md)|Use after free|All||
+|||Site Isolation|[CVE-2020-16017](SBX/CVE-2020-16017.md)|Use after free||
+|||Site Isolation|[CVE-2022-0290](SBX/CVE-2022-0290.md)|Use after free||
+|||Navigation|[CVE-2023-2721](SBX/CVE-2023-2721.md)|Use after free|All||
+||Extension|DevTools|[CVE-2024-5836](SBX/CVE-2024-5836.md)|Race condition|All||
 
 # Safari
 ## Safari_JavaScriptCore_RCE
