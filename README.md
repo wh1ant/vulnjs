@@ -29,7 +29,7 @@
 |O|TurboFan|Concurrent compilation|[CVE-2023-3420](v8/CVE-2023-3420.md)|Type confusion||
 |O|TurboFan|Side effect|[CVE-2018-17463](v8/CVE-2018-17463.md)|Type confusion||
 |O|TurboFan|Property access|[CVE-2021-30632](v8/CVE-2021-30632.md)|Type confusion||
-|O|TurboFan||[CVE-2025-0612](v8/CVE-2025-0612)|Out of bounds|||
+|O|TurboFan||[CVE-2025-0612](v8/CVE-2025-0612.md)|Out of bounds|||
 |O|Maglev|MaglevGraphBuilder|[CVE-2024-4947](v8/CVE-2024-4947.md)|Type confusion||
 |O|Maglev|MaglevGraphBuilder|[CVE-2023-4069](v8/CVE-2023-4069.md)|Type confusion|Man Yue Mo|
 ||Map transition|Value serializer|[CVE-2023-1214](v8/CVE-2023-1214.md)|Type confusion|Man Yue Mo|
