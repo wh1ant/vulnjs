@@ -59,17 +59,29 @@
 ## Chrome_V8_cage_escape(V8_SBX)
 |Pwn|Target|Feature|CVE/issue|Vulnerability|Comment|
 |---|---|---|---|---|---|
-|N/A|N/A|N/A|[Utils](v8/Utils.md)|N/A||
-|O|N/A||[Cage_escape](v8/Cage_Escape.md)|2024.6.6||
-||wasm||[issue-349529650](v8/issue-349529650.md)|function import signature check race||
-||wasm||[issue-336009921](v8/issue-336009921.md)|function signature confusion||
-||wasm||[issue-354408144](v8/issue-354408144.md)|function signature confusion||
-|O|wasm||[CVE-2024-7024](v8/CVE-2024-7024.md)|function signature confusion||
-|O|wasm||[CVE-2024-8904](v8/CVE-2024-8904.md)|Type confusion||
-||wasm||[CVE-2024-6779](v8/CVE-2024-6779.md)|Out of Bounds||
-|O|wasm||[CVE-2024-8194](v8/CVE-2024-8194.md)|Type confusion|incomplete CVE-2024-6100|
-|▵|wasm||[issue-348084786](v8/issue-348084786.md)|Type confusion||
-||wasm||[issue-373703277](v8/issue-373703277.md)|Type confusion||
+|O|N/A||[v8sbx](v8/v8sbx.md)|N/A||
+|O|Runtime||[my-v8sbx-bug](v8/my-v8sbx-bug.md)|Insufficient data validation||
+||wasm||[issue-349529650](v8/issue-349529650.md)|Function import signature check race||
+|O|wasm||[issue-336009921](v8/issue-336009921.md)|Function signature confusion||
+|O|wasm||[issue-354408144](v8/issue-354408144.md)|Function signature confusion||
+|O|wasm||[CVE-2024-7024](v8/CVE-2024-7024.md)|Inappropriate implementation||
+|O|wasm||[issue-369748454](v8/issue-369748454.md)|Inappropriate implementation||
+|X|wasm|GC|[CVE-2024-3156](v8/CVE-2024-3156.md)|Inappropriate implementation||
+|O|wasm|Runtime|[issue-361862752](v8/issue-361862752.md)||
+|*|wasm|Builder|[CVE-2024-6779](v8/CVE-2024-6779.md)|Out of Bounds||
+|▵|wasm||[issue-348084786](v8/issue-348084786.md)|Type confusion|
+|O|wasm|Liftoff|[issue-350292240](v8/issue-350292240.md)|Function signature confusion|||
+|O|wasm||[CVE-2024-8194](v8/CVE-2024-8194.md)|Type confusion||
+||wasm||[CVE-2024-11395](v8/CVE-2024-11395.md)|Type confusion||
+||wasm||[issue-394120667](v8/issue-394120667.md)|||
+|X|Runtime|Leaptiering|[issue-342297062](v8/issue-342297062.md)|Function signature confusion||
+||Runtime|TypedArrays|[issue-385775375](v8/issue-385775375.md)|memory access violaton||
+||Runtime|Heap|[issue-389713719](v8/issue-389713719.md)|Out of bound write||
+||||[issue-389970331](v8/issue-389970331.md)|Stack buffer overflow||
+||||[issue-412741811](v8/issue-412741811.md)|Out of Bound read||
+||||[issue-384186547](v8/issue-384186547.md)|Use after free||
+||||[issue-338381304](v8/issue-338381304.md)|Stack corruption||
+||Torque|SortState|[issue-390639820](v8/issue-390639820.md)|Type confusion||
 
 
 
