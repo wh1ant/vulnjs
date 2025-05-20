@@ -68,7 +68,7 @@
 |O|wasm||[issue-369748454](v8/issue-369748454.md)|Inappropriate implementation||
 |X|wasm|GC|[CVE-2024-3156](v8/CVE-2024-3156.md)|Inappropriate implementation||
 |O|wasm|Runtime|[issue-361862752](v8/issue-361862752.md)||
-|*|wasm|Builder|[CVE-2024-6779](v8/CVE-2024-6779.md)|Out of Bounds||
+|O|wasm|Builder|[CVE-2024-6779](v8/CVE-2024-6779.md)|Out of Bounds||
 |▵|wasm||[issue-348084786](v8/issue-348084786.md)|Type confusion|
 |O|wasm|Liftoff|[issue-350292240](v8/issue-350292240.md)|Function signature confusion|||
 |O|wasm||[CVE-2024-8194](v8/CVE-2024-8194.md)|Type confusion||
