@@ -81,7 +81,7 @@
 ||||[issue-412741811](v8/issue-412741811.md)|Out of Bound read||
 ||||[issue-384186547](v8/issue-384186547.md)|Use after free||
 ||||[issue-338381304](v8/issue-338381304.md)|Stack corruption||
-||Torque|SortState|[issue-390639820](v8/issue-390639820.md)|Type confusion||
+|O|Torque|SortState|[issue-390639820](v8/issue-390639820.md)|Type confusion||
 
 
 
