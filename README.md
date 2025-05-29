@@ -82,6 +82,7 @@
 ||||[issue-384186547](v8/issue-384186547.md)|Use after free||
 ||||[issue-338381304](v8/issue-338381304.md)|Stack corruption||
 |O|Torque|SortState|[issue-390639820](v8/issue-390639820.md)|Type confusion||
+||Torque||[issue-391169061](v8/issue-391169061.md)|Double fetch||
 
 
 
