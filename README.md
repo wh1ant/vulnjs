@@ -59,30 +59,40 @@
 ## Chrome_V8_cage_escape(V8_SBX)
 |Pwn|Target|Feature|CVE/issue|Vulnerability|Comment|
 |---|---|---|---|---|---|
-|O|N/A||[v8sbx](v8/v8sbx.md)|N/A||
-|O|Runtime||[my-v8sbx-bug](v8/my-v8sbx-bug.md)|Insufficient data validation||
+|O|Runtime|Isolate|[my-v8sbx-bug](v8/my-v8sbx-bug.md)|N/A||
 ||wasm||[issue-349529650](v8/issue-349529650.md)|Function import signature check race||
 |O|wasm||[issue-336009921](v8/issue-336009921.md)|Function signature confusion||
 |O|wasm||[issue-354408144](v8/issue-354408144.md)|Function signature confusion||
 |O|wasm||[CVE-2024-7024](v8/CVE-2024-7024.md)|Inappropriate implementation||
 |O|wasm||[issue-369748454](v8/issue-369748454.md)|Inappropriate implementation||
 |X|wasm|GC|[CVE-2024-3156](v8/CVE-2024-3156.md)|Inappropriate implementation||
-|O|wasm|Runtime|[issue-361862752](v8/issue-361862752.md)||
-|O|wasm|Builder|[CVE-2024-6779](v8/CVE-2024-6779.md)|Out of Bounds||
-|▵|wasm||[issue-348084786](v8/issue-348084786.md)|Type confusion|
+|O|wasm|Runtime|[issue-361862752](v8/issue-361862752.md)|Function signature confusion||
+|*|wasm|Builder|[CVE-2024-6779](v8/CVE-2024-6779.md)|Out of Bounds||
+|▵|wasm||[issue-348084786](v8/issue-348084786.md)|Type confusion||
 |O|wasm|Liftoff|[issue-350292240](v8/issue-350292240.md)|Function signature confusion|||
+||wasm|Liftoff|[issue-421403261](v8/SBX/issue-421403261.md)|Type confusion||
 |O|wasm||[CVE-2024-8194](v8/CVE-2024-8194.md)|Type confusion||
 ||wasm||[CVE-2024-11395](v8/CVE-2024-11395.md)|Type confusion||
 ||wasm||[issue-394120667](v8/issue-394120667.md)|||
+|O|Runtime|Baseline|[issue-417636716](v8/issue-417636716.md)|Function signature confusion||
 |X|Runtime|Leaptiering|[issue-342297062](v8/issue-342297062.md)|Function signature confusion||
-||Runtime|TypedArrays|[issue-385775375](v8/issue-385775375.md)|memory access violaton||
 ||Runtime|Heap|[issue-389713719](v8/issue-389713719.md)|Out of bound write||
-||||[issue-389970331](v8/issue-389970331.md)|Stack buffer overflow||
+|▵|Runtime|TypedArrays|[issue-385775375](v8/issue-385775375.md)|Double fetch||
+|X|||[issue-389970331](v8/issue-389970331.md)|Stack buffer overflow||
 ||||[issue-412741811](v8/issue-412741811.md)|Out of Bound read||
 ||||[issue-384186547](v8/issue-384186547.md)|Use after free||
-||||[issue-338381304](v8/issue-338381304.md)|Stack corruption||
+||Runtime||[issue-338381304](v8/issue-338381304.md)|Stack corruption||
+|O|||[issue-395659804](v8/issue-395659804.md)|Type confusion||
+||Regexp||[issue-330404819](v8/issue-330404819.md)|Out of Bounds||
 |O|Torque|SortState|[issue-390639820](v8/issue-390639820.md)|Type confusion||
-||Torque||[issue-391169061](v8/issue-391169061.md)|Double fetch||
+|O|Torque||[issue-391169061](v8/issue-391169061.md)|Double fetch||
+||JSON||[issue-396446145](v8/issue-396446145.md)|Out of bound write||
+||TurboFan|Boilerplate|[issue-395895382](v8/issue-395895382.md)|Out of bound write||
+|O|TurboFan||[issue-420637585](v8/issue-420637585.md)|||
+||||[issue-411598604](v8/issue-411598604.md)|Use after free||
+||||[issue-435630461](v8/SBX/issue-435630461.md)||
+||||[issue-443772809](v8/SBX/issue-443772809.md)|||
+||||[issue-430960844](v8/SBX/issue-430960844.md)|||
 
 
 
