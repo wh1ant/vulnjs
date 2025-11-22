@@ -102,7 +102,7 @@
 |N/A|N/A|N/A|[Utils](Renderer/Utils.md)|N/A||
 |O|||[CVE-2021-30551](v8/CVE-2021-30551.md)|Type confusion||
 |O|||[2022-issue-1352549](Renderer/issue-1352549.md)|Type confusion||
-||||[CVE-2024-1669](Renderer/CVE-2024-1669.md)|Out of bound read|reward-7000|
+||||[CVE-2024-1669](Renderer/CVE-2024-1669.md)|Out of bound read||
 |O|||[CVE-2024-1283](Renderer/CVE-2024-1283.md)|Heap buf overflow||
 ||Compositing||[CVE-2024-3157](Renderer/CVE-2024-3157.md)|Out of bound write||
 
@@ -110,8 +110,8 @@
 |Pwn|Target|Feature|CVE/issue|Vulnerability|OS|Comment|
 |---|---|---|---|---|---|---|
 |N/A|N/A|N/A|[Utils](SBX/Utils.md)|N/A|N/A||
-||Mojo||[(19)75.0.3770.89](SBX/75.0.3770.89.md)|Use after free|All|Refactoring|
-|O|Mojo||[CVE-2019-13768](SBX/CVE-2019-13768.md)|Use after free|Windows|Mark Brand|
+||Mojo||[(19)75.0.3770.89](SBX/75.0.3770.89.md)|Use after free|All||
+|O|Mojo||[CVE-2019-13768](SBX/CVE-2019-13768.md)|Use after free|Windows||
 |O|Mojo||[20-issue-1062091](SBX/20-issue-1062091.md)|Use after free|All||
 ||Mojo||[CVE-2020-16045](SBX/CVE-2020-16045.md)|Use after free|Android||
 |O|Mojo||[CVE-2021-30633](SBX/CVE-2021-30633.md)|Use after free||
@@ -166,16 +166,16 @@
 |Pwn|Target|Feature|CVE/issue|Vulnerability|Comment|
 |---|---|---|---|---|---|
 |N/A|N/A|N/A|[Utils](Safari/jsc/Utils.md)|N/A||
-|O|Array.slice|Side effect|[CVE-2016-4622](Safari/jsc/CVE-2016-4622.md)|Out of bounds|Phrack70|
-|O|Array.reverse||[CVE-2018-4192](Safari/jsc/CVE-2018-4192.md)|Use after free|pwn2own-2018|
+|O|Array.slice|Side effect|[CVE-2016-4622](Safari/jsc/CVE-2016-4622.md)|Out of bounds||
+|O|Array.reverse||[CVE-2018-4192](Safari/jsc/CVE-2018-4192.md)|Use after free||
 
 ## Safari_SBX
 |Pwn|Target|Feature|CVE/issue|Vulnerability|OS|Comment|
 |---|---|---|---|---|---|---|
 |N/A|N/A|N/A|[Utils](Safari/SBX/Utils.md)|N/A|||
-|O|WindowServer||[CVE-2018-4193](Safari/SBX/CVE-2018-4193.md)|Out of bounds|Mac|pwn2own-2018|
-||SharedFileList||[CVE-2024-54498](Safari/SBX/CVE-2024-54498.md)|A path handling issue|Mac|
-||WebGPU||[CVE-2023-28205](Safari/SBX/CVE-2023-28205.md)|Use after free|iOS|Project zero|
+|O|WindowServer||[CVE-2018-4193](Safari/SBX/CVE-2018-4193.md)|Out of bounds|Mac||
+||SharedFileList||[CVE-2024-54498](Safari/SBX/CVE-2024-54498.md)|A path handling issue||
+||WebGPU||[CVE-2023-28205](Safari/SBX/CVE-2023-28205.md)|Use after free|iOS||
 
 # Firefox
 ## Firefox_Gecko_RCE
@@ -189,4 +189,4 @@
 |Pwn|Target|Feature|CVE/issue|Vulnerability|Comment|
 |---|---|---|---|---|---|
 |N/A|N/A|N/A|[Utils](Firefox/Renderer/Utils.md)|N/A||
-||||[CVE-2022-1802](Firefox/Renderer/CVE-2022-1802.md)|Out of bounds|pwn2own-2022|
+||||[CVE-2022-1802](Firefox/Renderer/CVE-2022-1802.md)|Out of bounds||
