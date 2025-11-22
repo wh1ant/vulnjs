@@ -47,7 +47,7 @@
 |O|||[CVE-2023-3079](v8/CVE-2023-3079.md)|Type confusion||
 ||||[CVE-2023-3420](v8/CVE-2023-3420.md)|Type confusion||
 ||||[CVE-2024-4761](v8/CVE-2024-4761.md)|Out of bound write||
-|O|||[CVE-2023-4762](v8/CVE-2023-4762.md)|Type confusion|Leak Hole||
+|O|||[CVE-2023-4762](v8/CVE-2023-4762.md)|Type confusion|||
 ||||[CVE-2024-4947](v8/CVE-2024-4947.md)|Type confusion|||
 |O||enum cache|[CVE-2023-4427](v8/CVE-2023-4427.md)|Out of bound read||
 |||enum cache|[CVE-2024-3159](v8/CVE-2024-3159.md)|Out of bound read||
@@ -100,8 +100,8 @@
 |Pwn|Target|Feature|CVE/issue|Vulnerability|Comment|
 |---|---|---|---|---|---|
 |N/A|N/A|N/A|[Utils](Renderer/Utils.md)|N/A||
-|O|||[CVE-2021-30551](v8/CVE-2021-30551.md)|Type confusion|Leak Hole|
-|O|||[2022-issue-1352549](Renderer/issue-1352549.md)|Type confusion|Leak Hole|
+|O|||[CVE-2021-30551](v8/CVE-2021-30551.md)|Type confusion||
+|O|||[2022-issue-1352549](Renderer/issue-1352549.md)|Type confusion||
 ||||[CVE-2024-1669](Renderer/CVE-2024-1669.md)|Out of bound read|reward-7000|
 |O|||[CVE-2024-1283](Renderer/CVE-2024-1283.md)|Heap buf overflow||
 ||Compositing||[CVE-2024-3157](Renderer/CVE-2024-3157.md)|Out of bound write||
