@@ -142,15 +142,15 @@
 ||ANGLE||[CVE-2023-1534](SBX/CVE-2023-1534.md)|Out of bound read|All||
 |X|ANGLE|SwiftShader|[CVE-2024-4058](SBX/CVE-2024-4058.md)|Type confusion|All||
 ||ANGLE||[CVE-2016-1649](SBX/CVE-2016-1649.md)|Heap buf overflow|||
-||Skia||[CVE-2023-2136](SBX/CVE-2023-2136.md)|Integer overflow|Android|ITW|
+||Skia||[CVE-2023-2136](SBX/CVE-2023-2136.md)|Integer overflow|Android||
 ||Skia||[CVE-2023-4354](SBX/CVE-2023-4354.md)|Heap buf overflow||
-||Skia||[CVE-2023-6345](SBX/CVE-2023-6345.md)|Integer overflow||ITW|
+||Skia||[CVE-2023-6345](SBX/CVE-2023-6345.md)|Integer overflow|||
 ||Skia|Tag|[CVE-2018-6126](SBX/CVE-2018-6126.md)|Heap buf overflow|All||
 ||Skia||[CVE-2021-37981](SBX/CVE-2021-37981.md)|Heap buf overflow||
 ||Skia||[CVE-2023-4354](SBX/CVE-2023-4354.md)|Heap buf overflow|All||
-||Skia||[CVE-2023-6345](SBX/CVE-2023-6345.md)|Integer overflow||ITW|
+||Skia||[CVE-2023-6345](SBX/CVE-2023-6345.md)|Integer overflow|||
 ||appcache||[2018-Hack2Win](SBX/2018-Hack2Win.md)|Use after free|Windows||
-||WebRTC||[CVE-2023-7024](SBX/CVE-2023-7024.md)|Heap buf overflow||ITW|
+||WebRTC||[CVE-2023-7024](SBX/CVE-2023-7024.md)|Heap buf overflow|||
 ||COM||[CVE-2023-36719](SBX/CVE-2023-36719.md)|Use after free|Windows||
 ||Kernel|NTOS|[CVE-2023–21674](SBX/CVE-2023–21674.md)|Use after free|Windows||
 ||Driver|Binder|[CVE-2020-0041](SBX/CVE-2020-0041.md)|Use after free|Android||
