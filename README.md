@@ -26,6 +26,7 @@
 ||wasm||[CVE-2024-6100](v8/CVE-2024-6100.md)|Type confusion||
 ||wasm||[CVE-2024-5158](v8/CVE-2024-5158.md)|Type confusion||
 ||wasm|Turboshaft|[issue-352720899](v8/issue-352720899.md)|Type confusion||
+|O|wasm|Stack switching|[CVE-2025-5959](v8/CVE-2025-5959.md)|Type confusion||
 |O|TurboFan|Concurrent compilation|[CVE-2023-3420](v8/CVE-2023-3420.md)|Type confusion||
 |O|TurboFan|Side effect|[CVE-2018-17463](v8/CVE-2018-17463.md)|Type confusion||
 |O|TurboFan|Property access|[CVE-2021-30632](v8/CVE-2021-30632.md)|Type confusion||
@@ -93,7 +94,7 @@
 ||||[issue-435630461](v8/SBX/issue-435630461.md)||
 ||||[issue-443772809](v8/SBX/issue-443772809.md)|||
 ||||[issue-430960844](v8/SBX/issue-430960844.md)|||
-
+|O|Runtime||[issue-435630467](v8/SBX/issue-435630467.md)|Inappropriate implementation||
 
 
 ## Chrome_Renderer_RCE
