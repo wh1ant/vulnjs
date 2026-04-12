@@ -31,23 +31,23 @@
 |O|TurboFan|Property access|[CVE-2021-30632](v8/CVE-2021-30632.md)|Type confusion||
 |O|TurboFan||[CVE-2025-0612](v8/CVE-2025-0612.md)|Out of bounds|||
 |O|Maglev|MaglevGraphBuilder|[CVE-2024-4947](v8/CVE-2024-4947.md)|Type confusion||
-|O|Maglev|MaglevGraphBuilder|[CVE-2023-4069](v8/CVE-2023-4069.md)|Type confusion|Man Yue Mo|
-||Map transition|Value serializer|[CVE-2023-1214](v8/CVE-2023-1214.md)|Type confusion|Man Yue Mo|
-||Map transition|TryFastAddDataProperty|[CVE-2024-5830](v8/CVE-2024-5830.md)|Type confusion|Man Yue Mo|
+|O|Maglev|MaglevGraphBuilder|[CVE-2023-4069](v8/CVE-2023-4069.md)|Type confusion||
+||Map transition|Value serializer|[CVE-2023-1214](v8/CVE-2023-1214.md)|Type confusion||
+||Map transition|TryFastAddDataProperty|[CVE-2024-5830](v8/CVE-2024-5830.md)|Type confusion||
 |O|||[CVE-2017-5030](v8/CVE-2017-5030.md)|Out of bound read||
 |O|||[18-issue-880207](v8/18-issue-880207.md)|Type confusion||
 |O|||[CVE-2019-5825](v8/CVE-2019-5825.md)|Type confusion||
 |O|||[CVE-2020-6383](v8/CVE-2020-6383.md)|Type confusion||
 |O|||[CVE-2021-21225](v8/CVE-2021-21225.md)|Out of bound read||
-|O|||[CVE-2021-38003](Renderer/CVE-2021-38003.md)|Type confusion|Leak Hole|
+|O|||[CVE-2021-38003](Renderer/CVE-2021-38003.md)|Type confusion||
 |O|||[CVE-2022-1310](v8/CVE-2022-1310.md)|Use after free||
-|O|||[CVE-2022-1364](v8/CVE-2022-1364.md)|Type confusion|Leak Hole|
-|O|||[CVE-2022-4174](v8/CVE-2022-4174.md)|Type confusion|Leak Hole|
-|O|||[CVE-2023-2033](v8/CVE-2023-2033.md)|Type confusion|Leak Hole|
-|O|||[CVE-2023-3079](v8/CVE-2023-3079.md)|Type confusion|Leak Hole|
-||||[CVE-2023-3420](v8/CVE-2023-3420.md)|Type confusion|Man Yue Mo|
+|O|||[CVE-2022-1364](v8/CVE-2022-1364.md)|Type confusion||
+|O|||[CVE-2022-4174](v8/CVE-2022-4174.md)|Type confusion||
+|O|||[CVE-2023-2033](v8/CVE-2023-2033.md)|Type confusion||
+|O|||[CVE-2023-3079](v8/CVE-2023-3079.md)|Type confusion||
+||||[CVE-2023-3420](v8/CVE-2023-3420.md)|Type confusion||
 ||||[CVE-2024-4761](v8/CVE-2024-4761.md)|Out of bound write||
-|O|||[CVE-2023-4762](v8/CVE-2023-4762.md)|Type confusion|Leak Hole||
+|O|||[CVE-2023-4762](v8/CVE-2023-4762.md)|Type confusion|||
 ||||[CVE-2024-4947](v8/CVE-2024-4947.md)|Type confusion|||
 |O||enum cache|[CVE-2023-4427](v8/CVE-2023-4427.md)|Out of bound read||
 |||enum cache|[CVE-2024-3159](v8/CVE-2024-3159.md)|Out of bound read||
@@ -89,8 +89,8 @@
 |Pwn|Target|Feature|CVE/issue|Vulnerability|Comment|
 |---|---|---|---|---|---|
 |N/A|N/A|N/A|[Utils](Renderer/Utils.md)|N/A||
-|O|||[CVE-2021-30551](v8/CVE-2021-30551.md)|Type confusion|Leak Hole|
-|O|||[2022-issue-1352549](Renderer/issue-1352549.md)|Type confusion|Leak Hole|
+|O|||[CVE-2021-30551](v8/CVE-2021-30551.md)|Type confusion||
+|O|||[2022-issue-1352549](Renderer/issue-1352549.md)|Type confusion||
 ||||[CVE-2024-1669](Renderer/CVE-2024-1669.md)|Out of bound read|reward-7000|
 |O|||[CVE-2024-1283](Renderer/CVE-2024-1283.md)|Heap buf overflow||
 ||Compositing||[CVE-2024-3157](Renderer/CVE-2024-3157.md)|Out of bound write||
@@ -155,16 +155,16 @@
 |Pwn|Target|Feature|CVE/issue|Vulnerability|Comment|
 |---|---|---|---|---|---|
 |N/A|N/A|N/A|[Utils](Safari/jsc/Utils.md)|N/A||
-|O|Array.slice|Side effect|[CVE-2016-4622](Safari/jsc/CVE-2016-4622.md)|Out of bounds|Phrack70|
-|O|Array.reverse||[CVE-2018-4192](Safari/jsc/CVE-2018-4192.md)|Use after free|pwn2own-2018|
+|O|Array.slice|Side effect|[CVE-2016-4622](Safari/jsc/CVE-2016-4622.md)|Out of bounds||
+|O|Array.reverse||[CVE-2018-4192](Safari/jsc/CVE-2018-4192.md)|Use after free||
 
 ## Safari_SBX
 |Pwn|Target|Feature|CVE/issue|Vulnerability|OS|Comment|
 |---|---|---|---|---|---|---|
 |N/A|N/A|N/A|[Utils](Safari/SBX/Utils.md)|N/A|||
-|O|WindowServer||[CVE-2018-4193](Safari/SBX/CVE-2018-4193.md)|Out of bounds|Mac|pwn2own-2018|
-||SharedFileList||[CVE-2024-54498](Safari/SBX/CVE-2024-54498.md)|A path handling issue|Mac|
-||WebGPU||[CVE-2023-28205](Safari/SBX/CVE-2023-28205.md)|Use after free|iOS|Project zero|
+|O|WindowServer||[CVE-2018-4193](Safari/SBX/CVE-2018-4193.md)|Out of bounds|Mac||
+||SharedFileList||[CVE-2024-54498](Safari/SBX/CVE-2024-54498.md)|A path handling issue||
+||WebGPU||[CVE-2023-28205](Safari/SBX/CVE-2023-28205.md)|Use after free|iOS||
 
 # Firefox
 ## Firefox_Gecko_RCE
