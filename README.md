@@ -152,7 +152,6 @@
 ||Skia||[CVE-2023-6345](SBX/CVE-2023-6345.md)|Integer overflow|||
 ||appcache||[2018-Hack2Win](SBX/2018-Hack2Win.md)|Use after free|Windows||
 ||WebRTC||[CVE-2023-7024](SBX/CVE-2023-7024.md)|Heap buf overflow|||
-||COM||[CVE-2023-36719](SBX/CVE-2023-36719.md)|Use after free|Windows||
 ||Kernel|NTOS|[CVE-2023–21674](SBX/CVE-2023–21674.md)|Use after free|Windows||
 ||Driver|Binder|[CVE-2020-0041](SBX/CVE-2020-0041.md)|Use after free|Android||
 |||Model|[CVE-2021-21201](SBX/CVE-2021-21201.md)|Use after free|All||
@@ -161,6 +160,20 @@
 |||Site Isolation|[CVE-2022-0290](SBX/CVE-2022-0290.md)|Use after free||
 |||Navigation|[CVE-2023-2721](SBX/CVE-2023-2721.md)|Use after free|All||
 ||Extension|DevTools|[CVE-2024-5836](SBX/CVE-2024-5836.md)|Race condition|All||
+||COM||[CVE-2023-36719](SBX/CVE-2023-36719.md)|Use after free|Windows||
+||StateRepository|AppXSvc|[CVE-2020-1124](SBX/CVE-2020-1124.md)|Improperly handles|Windows||
+||StateRepository|AppXSvc|[CVE-2020-1186](SBX/CVE-2020-1186.md)|Improperly handles|Windows||
+||StateRepository|AppXSvc|[CVE-2024-35265](SBX/CVE-2024-35265.md)||Windows||
+||StateRepository|AppXSvc|[CVE-2020-1185](SBX/CVE-2020-1185.md)||Windows||
+||StateRepository|AppXSvc|[CVE-2025-49723](SBX/CVE-2025-49723.md)|Server file tampering|Windows||
+||StateRepository|AppXSvc|[CVE-2022-21863](SBX/CVE-2022-21863.md)||Windows||
+||StateRepository|AppXSvc|[CVE-2025-53789](SBX/CVE-2025-53789.md)|Missing authentication|Windows||
+||StateRepository|AppXSvc|[CVE-2025-59203](SBX/CVE-2025-59203.md)|An information disclosure|Windows||
+||UUS/WUSvc||[CVE-2020-1305](SBX/CVE-2020-1305.md)|Initialize(),Undo() logic error|Windows||
+||UsoSvc||[CVE-2020-1313](SBX/CVE-2020-1313.md)||Windows||
+||AppXSvc||[CVE-2019-1253](SBX/CVE-2019-1253.md)||Windows||
+||AppXSvc||[CVE-2019-1385](SBX/CVE-2019-1385.md)||Windows||
+||AppXSvc||[CVE-2019-0841](SBX/CVE-2019-0841.md)||Windows||
 
 # Safari
 ## Safari_JavaScriptCore_RCE
