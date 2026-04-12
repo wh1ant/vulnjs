@@ -143,6 +143,7 @@
 ||ANGLE||[CVE-2023-1534](SBX/CVE-2023-1534.md)|Out of bound read|All||
 |X|ANGLE|SwiftShader|[CVE-2024-4058](SBX/CVE-2024-4058.md)|Type confusion|All||
 ||ANGLE||[CVE-2016-1649](SBX/CVE-2016-1649.md)|Heap buf overflow|||
+|O|ANGLE||[CVE-2025-1426](SBX/CVE-2025-1426.md)|heap buffer overflow|All||
 ||Skia||[CVE-2023-2136](SBX/CVE-2023-2136.md)|Integer overflow|Android||
 ||Skia||[CVE-2023-4354](SBX/CVE-2023-4354.md)|Heap buf overflow||
 ||Skia||[CVE-2023-6345](SBX/CVE-2023-6345.md)|Integer overflow|||
