@@ -1,17 +1,17 @@
 - [Chrome](#Chrome)
-	- [Chrome_V8_RCE](#Chrome_V8_RCE)
-	- [Chrome_V8_cage_escape(V8_SBX)](#Chrome_V8_cage_escape(V8_SBX))
-	- [Chrome_Renderer_RCE](#Chrome_Renderer_RCE)
-	- [Chrome_SBX](#Chrome_SBX)
+	- [Chrome V8 RCE](<#Chrome V8 RCE>)
+	- [Chrome V8 Sandbox bypass(V8 cage escape)](<#Chrome V8 Sandbox bypass(V8 cage escape)>)
+	- [Chrome Renderer RCE](<#Chrome Renderer RCE>)
+	- [Chrome SBX](<#Chrome SBX>)
 - [Safari](#Safari)
-	- [Safari_JavaScriptCore_RCE](#Safari_JavaScriptCore_RCE)
-	- [Safari_SBX](#Safari_SBX)
+	- [Safari JavaScriptCore RCE](<#Safari JavaScriptCore RCE>)
+	- [Safari SBX](<#Safari SBX>)
 - [Firefox](#Firefox)
-	- [Firefox_Gecko_RCE](#Firefox_Gecko_RCE)
-	- [Firefox_Renderer_RCE](#Firefox_Renderer_RCE)
+	- [Firefox Gecko RCE](<#Firefox Gecko RCE>)
+	- [Firefox_Renderer RCE](<#Firefox Renderer RCE>)
 
 # Chrome 
-## Chrome_V8_RCE
+## Chrome V8 RCE
 |Pwn|Target|Feature|CVE/issue|Vulnerability|Comment|
 |---|---|---|---|---|---|
 |N/A|N/A|N/A|[Utils](v8/Utils.md)|N/A||
@@ -57,7 +57,7 @@
 |O|Parser|Incorrect parsing|[CVE-2024-5274](v8/CVE-2024-5274.md)|Type confusion||
 
 
-## Chrome_V8_cage_escape(V8_SBX)
+## Chrome V8 cage escape(V8 SBX)
 |Pwn|Target|Feature|CVE/issue|Vulnerability|Comment|
 |---|---|---|---|---|---|
 |O|Runtime|Isolate|[my-v8sbx-bug](v8/my-v8sbx-bug.md)|N/A||
@@ -97,7 +97,7 @@
 |O|Runtime||[issue-435630467](v8/SBX/issue-435630467.md)|Inappropriate implementation||
 
 
-## Chrome_Renderer_RCE
+## Chrome Renderer RCE
 |Pwn|Target|Feature|CVE/issue|Vulnerability|Comment|
 |---|---|---|---|---|---|
 |N/A|N/A|N/A|[Utils](Renderer/Utils.md)|N/A||
@@ -107,7 +107,7 @@
 |O|||[CVE-2024-1283](Renderer/CVE-2024-1283.md)|Heap buf overflow||
 ||Compositing||[CVE-2024-3157](Renderer/CVE-2024-3157.md)|Out of bound write||
 
-## Chrome_SBX
+## Chrome SBX
 |Pwn|Target|Feature|CVE/issue|Vulnerability|OS|Comment|
 |---|---|---|---|---|---|---|
 |N/A|N/A|N/A|[Utils](SBX/Utils.md)|N/A|N/A||
@@ -177,14 +177,14 @@
 ||AppXSvc||[CVE-2019-0841](SBX/CVE-2019-0841.md)||Windows||
 
 # Safari
-## Safari_JavaScriptCore_RCE
+## Safari JavaScriptCore RCE
 |Pwn|Target|Feature|CVE/issue|Vulnerability|Comment|
 |---|---|---|---|---|---|
 |N/A|N/A|N/A|[Utils](Safari/jsc/Utils.md)|N/A||
 |O|Array.slice|Side effect|[CVE-2016-4622](Safari/jsc/CVE-2016-4622.md)|Out of bounds||
 |O|Array.reverse||[CVE-2018-4192](Safari/jsc/CVE-2018-4192.md)|Use after free||
 
-## Safari_SBX
+## Safari SBX
 |Pwn|Target|Feature|CVE/issue|Vulnerability|OS|Comment|
 |---|---|---|---|---|---|---|
 |N/A|N/A|N/A|[Utils](Safari/SBX/Utils.md)|N/A|||
@@ -193,14 +193,14 @@
 ||WebGPU||[CVE-2023-28205](Safari/SBX/CVE-2023-28205.md)|Use after free|iOS||
 
 # Firefox
-## Firefox_Gecko_RCE
+## Firefox Gecko RCE
 |Pwn|Target|Feature|CVE/issue|Vulnerability|Comment|
 |---|---|---|---|---|---|
 |N/A|N/A|N/A|[Utils](Firefox/Gecko/Utils.md)|N/A||
 |O|SpiderMonkey|Side effect|[CVE-2024-8381](Firefox/Gecko/CVE-2024-8381.md)|Type confusion||
 
 
-## Firefox_Renderer_RCE
+## Firefox Renderer RCE
 |Pwn|Target|Feature|CVE/issue|Vulnerability|Comment|
 |---|---|---|---|---|---|
 |N/A|N/A|N/A|[Utils](Firefox/Renderer/Utils.md)|N/A||
