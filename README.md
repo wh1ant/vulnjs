@@ -175,7 +175,6 @@
 ||AppXSvc||[CVE-2019-1253](SBX/CVE-2019-1253.md)||Windows||
 ||AppXSvc||[CVE-2019-1385](SBX/CVE-2019-1385.md)||Windows||
 ||AppXSvc||[CVE-2019-0841](SBX/CVE-2019-0841.md)||Windows||
-|O|Blink|WindowDialog|[CVE-2026-3924](SBX/CVE-2026-3924.md)|Use after free|All||
 
 # Safari
 ## Safari_JavaScriptCore_RCE
