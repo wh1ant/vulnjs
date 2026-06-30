@@ -168,7 +168,7 @@
 ||StateRepository|AppXSvc|[CVE-2020-1185](SBX/CVE-2020-1185.md)||Windows||
 ||StateRepository|AppXSvc|[CVE-2025-49723](SBX/CVE-2025-49723.md)|Server file tampering|Windows||
 ||StateRepository|AppXSvc|[CVE-2022-21863](SBX/CVE-2022-21863.md)||Windows||
-||StateRepository|AppXSvc|[CVE-2025-53789](SBX/CVE-2025-53789.md)|Missing authentication|Windows||
+|▵|StateRepository|AppXSvc|[CVE-2025-53789](SBX/CVE-2025-53789.md)|Missing authentication|Windows||
 ||StateRepository|AppXSvc|[CVE-2025-59203](SBX/CVE-2025-59203.md)|An information disclosure|Windows||
 ||UUS/WUSvc||[CVE-2020-1305](SBX/CVE-2020-1305.md)|Initialize(),Undo() logic error|Windows||
 ||UsoSvc||[CVE-2020-1313](SBX/CVE-2020-1313.md)||Windows||
